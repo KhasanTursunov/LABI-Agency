@@ -1,0 +1,53 @@
+.advice{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.advice_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.advice_title h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 43.71px;
+color: $twothree;
+}
+
+.inside_a h3{
+font-size: 18px;
+font-weight: 700;
+line-height: 24.59px;
+text-align: left;
+color: $twothree;
+}
+
+.inside_a p{
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: $twothree;
+width: 30%;
+}
+
+.advice_divs{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 40px;
+}
+
+.advice_div{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 10px;
+    // border: 1px solid red;
+}
+
+@media(max-width:600px){
+    .advice_divs{
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+}
