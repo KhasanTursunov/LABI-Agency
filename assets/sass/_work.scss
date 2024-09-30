@@ -1,0 +1,130 @@
+.work_divs{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 2fr);
+}
+.work_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.work_title h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 43.71px;
+text-align: left;
+
+}
+
+.work_div1{
+    // background-image: url(../../svg/w1.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end:3;
+//   width: 300px;
+// height: 500px;
+}
+
+.work_div2{
+    //     background-image: url(../../svg/w2.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end:2;
+//   width: 420px;
+// height: 290px;
+}
+.work_div3{
+    //     background-image: url(../../svg/w2.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end:2;
+//     width: 420px;
+// height: 290px;
+}
+.work_div4{
+    //     background-image: url(../../svg/w3.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end:3;
+//   width: 510px;
+// height: 290px;
+
+}
+.work_div5{
+    //     background-image: url(../../svg/w2.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end:3;
+}
+.work_div6{
+    //     background-image: url(../../svg/w1.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end:4;
+//   margin-bottom: 20px;
+  
+}
+.work_div7{
+    //     background-image: url(../../svg/w2.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.work_div8{
+    //     background-image: url(../../svg/w3.svg);
+    // background-repeat: no-repeat;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+@media(max-width:1300px){
+    .work_divs{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+
+}
+
+}
+
+
+@media(max-width:600px){
+    .work_div1 img,
+.work_div2 img,
+.work_div3 img,
+.work_div4 img,
+.work_div5 img,
+.work_div6 img,
+.work_div7 img,
+.work_div8 img{
+    width: 100%;
+}
+
+    
+.work_div1,
+.work_div2,
+.work_div3,
+.work_div4,
+.work_div5,
+.work_div6,
+.work_div7,
+.work_div8{
+    width: 100%;
+}
+}

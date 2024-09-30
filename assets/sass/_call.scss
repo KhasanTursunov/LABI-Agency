@@ -1,0 +1,85 @@
+.call{
+    margin-top: 50px;
+}
+
+.call_left_and_right{
+    display: flex;
+    gap: 50px;
+}
+
+.call_right h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 43.71px;
+text-align: left;
+color: $twothree;
+}
+.call_right h3{
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: $twothree;
+}
+.call_right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.call_right{}
+.call_right{}
+.call_right{}
+.call_right{}
+
+.c_inside1{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.c_inside1 a{
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: $twothree;
+}
+
+.div_for_btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+@media(max-width:1100px){
+    .call_left_and_right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.call_left img{
+    width: 100%;
+}
+.call_left{
+    width: 100%;
+}
+
+}
+
+.call_btn{
+    width: 193px;
+height: 45px;
+background-color: $zerof;
+font-size: 18px;
+font-weight: 500;
+line-height: 24.59px;
+color: $f;
+border: none;
+}
+
+@media(max-width:800px){
+    .div_for_btn{
+        display: none;
+    }
+}
