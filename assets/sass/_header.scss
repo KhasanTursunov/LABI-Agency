@@ -1,0 +1,84 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar_links .links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.links li a{
+font-size: 16px;
+font-weight: 400;
+line-height: 21.86px;
+text-align: left;
+color: $twothree;
+}
+
+.links li a:hover{
+color: $twothree;
+border-bottom: 1px solid $twothree;
+}
+
+.navbar_btn{
+    padding:10px ;
+height: 45px;
+font-size: 18px;
+font-weight: 500;
+line-height: 24.59px;
+background-color: transparent;
+color: $twothree;
+border: 1px solid $zerof;
+transition: 0.3s linear;
+}
+
+.navbar_btn:hover{
+background-color: $zerof;
+color: $f;
+border: 1px solid $zerof;
+}
+.checkboxx{
+display: none;
+}
+
+@media(min-width:777px){
+.div_for_menu{
+    display: none;
+}
+.logingout{
+    display: none;
+}
+.new{
+    display: none;
+}
+}
+
+
+
+@media(max-width:777px){
+    .links{
+        top: 0;
+        left: -100%;
+        // left: 0;
+        position: fixed;
+        width: 70%;
+        background-color: aliceblue;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transition: 0.5s linear;
+        z-index: 999;
+    }
+    .old{
+    display: none;
+    }
+
+    #check:checked ~ .links{
+        left: 0;
+    }
+
+}
