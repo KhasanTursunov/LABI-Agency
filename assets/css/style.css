@@ -261,9 +261,9 @@ a {
   font-size: 16px;
   font-weight: 400;
   line-height: 23px;
-  text-align: left;
+  text-align: center;
   color: #232323;
-  width: 30%;
+  width: 50%;
 }
 
 .advice_divs {
@@ -272,10 +272,11 @@ a {
   gap: 40px;
 }
 
-.advice_div {
+.inside_a {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  justify-content: center;
+  align-items: center;
   gap: 10px;
 }
 
@@ -284,6 +285,65 @@ a {
     display: flex;
     gap: 40px;
     flex-wrap: wrap;
+  }
+}
+.how_title {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.how_title h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 43.71px;
+  text-align: left;
+  color: #232323;
+}
+
+.how_divs {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  gap: 40px;
+}
+
+.how_div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.h_inside h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  text-align: center;
+  color: #232323;
+  width: 60%;
+}
+
+.h_inside {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .how_divs {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 40px;
+  }
+}
+@media (max-width: 400px) {
+  .how_divs {
+    display: grid;
+    grid-template-columns: repeat(1, 2fr);
+    gap: 40px;
   }
 }
 
