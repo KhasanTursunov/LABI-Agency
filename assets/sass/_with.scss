@@ -1,0 +1,41 @@
+.with{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.with_title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.with_title h2{
+font-size: 32px;
+font-weight: 700;
+line-height: 43.71px;
+text-align: left;
+color: $twothree;
+}
+
+.w_div h3{
+font-size: 18px;
+font-weight: 700;
+line-height: 24.59px;
+color: $f;
+text-align: start;
+margin-top: 70px;
+}
+
+.w_div{
+    background-image: url(../../svg/how2.svg);
+    width: 172px;
+height: 150px;
+padding: 20px 20px;
+}
+
+.w_divs{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
